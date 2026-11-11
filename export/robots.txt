@@ -1,0 +1,23 @@
+# Robots.txt for Divine Fatherhood Ministries
+
+# Allow all bots
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Specific rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://divinefatherhoodministries.org/sitemap.xml
+
+# Host preference (remove # if you want to specify a preferred domain)
+# Host: https://divinefatherhoodministries.org
